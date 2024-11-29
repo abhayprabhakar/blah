@@ -30,9 +30,10 @@ git stash apply
 
 ```
 ## Clone
+```bash
 git clone <repository_url>
 git log
-
+```
 ```bash
 ## Fetch and Rebase
 git init
@@ -43,6 +44,7 @@ git log --oneline
 ```
 
 ## Collaboration
+```bash
 git checkout -b feature-branch
 vi hi.txt
 git add .
@@ -50,5 +52,5 @@ git commit -m "Message"
 git checkout master
 git merge feature-branch -m "message"
 git log
-
+```
 ...
