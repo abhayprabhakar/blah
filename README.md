@@ -34,8 +34,8 @@ git stash apply
 git clone <repository_url>
 git log
 ```
-```bash
 ## Fetch and Rebase
+```bash
 git init
 git remote add origin <url>
 git fetch origin
@@ -53,4 +53,4 @@ git checkout master
 git merge feature-branch -m "message"
 git log
 ```
-...
+
